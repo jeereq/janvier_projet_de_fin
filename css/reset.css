@@ -1,5 +1,58 @@
+@font-face {
+    font-family: "montserrat";
+    src: url(../font/Montserrat-Black.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(24, 0, 39, .87);
+    text-align: left;
+    background-color: #fff;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+header,
+.btn {
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-family: montserrat, sans-serif;
+}
+
+
+/* on focus */
+
+button:focus {
+    outline: none;
 }
