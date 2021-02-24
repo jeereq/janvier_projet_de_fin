@@ -77,7 +77,17 @@ section .tecnos img {
 
 /*section home-service */
 
+.home-service {
+    background: #f1f0f3;
+}
+
+section h1 {
+    margin-bottom: 3.125rem;
+    font-size: 2.5rem;
+}
+
 section.home-service {
+    height: auto;
     display: flex;
     padding: 100px 30px;
 }
@@ -93,10 +103,35 @@ section.home-service {
     left: -100px;
     width: 105%;
     height: auto;
+    border-radius: 25px;
 }
 
-.left .item-boss img {
+.left .item-boss img.boss {
     height: auto;
     width: 100%;
     border-radius: 25px;
+}
+
+.item-boss .little-boss {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 60%;
+    width: 60%;
+    transform: translate(25%, 25%);
+}
+
+.left .item-boss .little-boss img {
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.home-service .right {
+    padding: 0 15px;
+    width: 60%;
+}
+
+.right H1 {
+    color: #424345;
 }
