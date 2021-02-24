@@ -1,4 +1,12 @@
+main {
+    margin-top: 50px;
+}
+
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
     height: auto;
     background: #d92950;
     -webkit-transition: all .5s ease;
@@ -57,4 +65,5 @@ li.nav-item a {
 header.tete img {
     width: 100px;
     opacity: 1;
+    padding: 5px 0;
 }

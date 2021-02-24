@@ -81,6 +81,11 @@ section .tecnos img {
     background: #f1f0f3;
 }
 
+.home-service {
+    background: #f1f0f3;
+    color: #424345;
+}
+
 section h1 {
     margin-bottom: 3.125rem;
     font-size: 2.5rem;
@@ -134,4 +139,78 @@ section.home-service {
 
 .right H1 {
     color: #424345;
+}
+
+.right .services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right .services .service {
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 1rem!important;
+}
+
+.service .image {
+    display: flex;
+    justify-content: center;
+}
+
+.service img {
+    width: 50px;
+    height: 90px;
+    border-bottom: 2px solid #ea0000;
+    padding-bottom: 1.5rem!important;
+    margin-bottom: 1rem;
+}
+
+.service h5 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+/*troisieme section */
+
+
+/*home-stats*/
+
+section.home-stats {
+    background: #d92950;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.home-stats h1 {
+    text-align: center;
+}
+
+.home-stats .stats {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.stats .stat {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.stats .stat img {
+    display: inline-block;
+    height: auto;
+    width: 60%;
+    margin: auto;
+    line-height: 100%;
 }
