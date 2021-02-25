@@ -135,6 +135,7 @@ section.home-service {
 .home-service .right {
     padding: 0 15px;
     width: 60%;
+    margin-left: 2.5%;
 }
 
 .right H1 {
@@ -193,17 +194,23 @@ section.home-stats {
 }
 
 .home-stats .stats {
+    position: relative;
     display: flex;
     justify-content: space-between;
+    overflow-x: scroll;
     height: 200px;
-    width: 100%;
+    width: auto;
     padding: 0 15px;
-    overflow: hidden;
+}
+
+.stats::-webkit-scrollbar {
+    background: none;
+    opacity: 0;
 }
 
 .stats .stat {
     height: 100%;
-    width: 200px;
+    min-width: 200px;
     display: flex;
     align-items: center;
     vertical-align: middle;
