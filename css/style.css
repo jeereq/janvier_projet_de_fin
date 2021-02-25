@@ -54,6 +54,11 @@ li.nav-item a:hover::after {
     left: 0;
 }
 
+li.nav-item a:hover::after {
+    animation: width 1s;
+    transition: 1s;
+}
+
 li.nav-item a {
     font-size: 1rem;
     color: #fff;
