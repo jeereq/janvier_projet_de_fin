@@ -89,6 +89,7 @@ section .tecnos img {
 section h1 {
     margin-bottom: 3.125rem;
     font-size: 2.5rem;
+    text-align: center;
 }
 
 section.home-service {
@@ -190,6 +191,7 @@ section.home-stats {
 }
 
 .home-stats h1 {
+    font-family: mons, serif, sans-serif;
     text-align: center;
 }
 
@@ -203,9 +205,15 @@ section.home-stats {
     padding: 0 15px;
 }
 
-.stats::-webkit-scrollbar {
+.stats::-webkit-scrollbar,
+.stats ::-moz-progress-bar,
+.stats::-webkit-progress-bar {
     background: none;
     opacity: 0;
+}
+
+.stats::-webkit-scrollbar-thumb {
+    background: #d92950;
 }
 
 .stats .stat {
@@ -312,4 +320,58 @@ section.home-projets {
 
 .home-projets h1 {
     text-align: center;
+    color: white;
+    font-family: mons, serif, sans-serif;
+}
+
+.home-projets .projets {
+    position: relative;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+
+.projets .projet {
+    height: 450px;
+    width: 33%;
+    background: green;
+}
+
+.projets button img {
+    height: 100%;
+    width: 100%;
+}
+
+.projets button.left {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-10px, -10px);
+}
+
+.projets button.right {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-10px, -10px);
+}
+
+section.home-expertise {
+    padding: 100px 0;
+}
+
+.home-expertise h1 {
+    color: #424345;
+}
+
+.home-expertise .expertises {
+    height: 500px;
 }

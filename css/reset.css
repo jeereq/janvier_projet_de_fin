@@ -3,6 +3,11 @@
     src: url(../font/Montserrat-Black.otf);
 }
 
+@font-face {
+    font-family: "mons";
+    src: url(../font/Montserrat-ExtraBold.otf)
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -63,4 +68,15 @@ h1 {
 
 button:focus {
     outline: none;
+}
+
+
+/*limite de tailles general */
+
+.projets,
+.stats,
+.expertises,
+.tecnos {
+    max-width: 1200px;
+    margin: auto;
 }
