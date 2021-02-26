@@ -181,13 +181,125 @@
         <section class="home-expertise">
             <h1>Notre expertise</h1>
             <div class="expertises">
-                <section class="left"></section>
+                <section class="left">
+                    <h3>Hardskills</h3>
+                    <div class="container">
+                        <div class="block"></div>
+                    </div>
+                </section>
                 <section class="right">
+                    <h3>Soft skills</h3>
+                    <div class="list-container">
+                        <ol>
+                            <li>Méthodologie agile (SCRUM)</li>
+                            <li>Travail en équipe</li>
+                            <li>Habitude du télé-travail</li>
+                            <li>Gestion du temps</li>
+                            <li>Pair programming</li>
+                        </ol>
+                    </div>
                 </section>
             </div>
         </section>
+        <section class="home-cta2">
+
+            <h1>Prêt ?</h1>
+            <div class="ctas2">
+                <div class="cta2">
+                    <div class="img-container ">
+                        <img src="image/illustrations/call.png" alt="Appel d’introduction" loading="lazy">
+                    </div>
+                    <h4>Appel d’introduction</h4>
+                </div>
+                <div class="cta2">
+                    <div class="img-container ">
+                        <img src="image/illustrations/users.png" alt="Proposition de profils" loading="lazy">
+                    </div>
+                    <h4>Proposition de profils</h4>
+                </div>
+                <div class="cta2">
+                    <div class="img-container "><img src="image/illustrations/call.png" alt="Interviews vidéo" loading="lazy"></div>
+                    <h4>Interviews vidéo</h4>
+                </div>
+                <div class="cta2 last">
+                    <div class="img-container "><img src="image/illustrations/user_group.png" alt="Onboarding" loading="lazy"></div>
+                    <h4>Onboarding</h4>
+                </div>
+            </div>
+            <div class="btn-plein">
+                <a href="">PLANIFIER UN APPEL</a>
+            </div>
+        </section>
     </main>
-    <section id="contact"></section>
+    <section id="contact">
+        <div class="form">
+            <h2>Formulaire de contact</h2>
+            <p class="text-center">
+                <strong>
+                    Si vous souhaitez-vous préinscrire à la Kinshasa Digital Academy veuillez remplir le <a href="https://forms.gle/TWhrLbszcZZRRry16">formulaire de préinscription</a>.
+                </strong>
+            </p>
+
+            <form action="">
+                <div class="form-left">
+                    <label for="title">
+                        quel titre vous decrirez le mieux ?
+                    </label>
+                    <select id="title" required="required" aria-required="true" placeholder="Quel titre vous décrit le mieux ?" aria-describedby="websiteFeedback" class="custom-select"><option value="consultant">Consultant</option><option value="entrepreneur">Entrepreneur</option><option value="etudiant">Etudiant</option><option value="start-up">Représentant d'une Start-up</option><option value="pme">Représentant d'une PME</option><option value="grande_entreprise">Représentant d'une Grande entreprise</option><option value="ong">Représentant d'une ONG</option><option value="autre">Autre</option></select>
+                    <input type="text" placeholder="prenom">
+                    <input type="text" placeholder="nom">
+                    <input type="tel" placeholder="numero">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="form-right">
+                    <label for="agro">Secteur d'activité</label>
+                    <select name="select" id="agro">
+                        <option value="Agriculture et foresterie">Agriculture et foresterie</option>
+                        <option value="Aéroport">Aéroport</option>
+                        <option value="Construction">Construction</option>
+                        <option value="Centrées des données / IT">Centrées des données / IT</option>
+                        <option value="Exportateur">Exportateur</option>
+                        <option value="Education">Education</option>
+                        <option value="Gouvernement">Gouvernement</option>
+                        <option value="Services Santé">Services Santé</option>
+                        <option value="Hôpital">Hôpital</option>
+                        <option value="Industrie de manufacturing">Industrie de manufacturing</option>
+                        <option value="Militaire / Défense">Militaire / Défense</option>
+                        <option value="Exploitation Minière">Exploitation Minière</option>
+                        <option value="Petrolière">Petrolière</option>
+                        <option value="Location">Location</option>
+                        <option value="Supermarché / Centre Commercial">Supermarché / Centre Commercial</option>
+                        <option value="Télécommunication">Télécommunication</option>
+                        <option value="Transport">Transport</option>
+                        <option value="Traitement d'eau">Traitement d'eau</option>
+                        <option value="Autre">Autre</option>
+                    </select>
+                    <input type="text" placeholder="Nom de l'entreprise"><input type="text" placeholder="Site Web"><input type="text" placeholder="ville">
+                </div>
+                <div class="form-bas-all">
+                    <label for="type">type de demande</label>
+                    <select name="type" id="type">
+                        <option value="site_web">Développement: Site Internet</option>
+                        <option value="app_mobile">Développement: Application mobile</option>
+                        <option value="app_gestion">Développement: Application de Gestion</option>
+                        <option value="autre_developpement">Développement: Autre demande ou autre besoin en technologie de l'information</option>
+                        <option value="evenement_partenariat">Evénement : Demande de partenariat</option>
+                        <option value="evenement_autre">Evénement: Autre question</option>
+                        <option value="kda_partenariat">Kinshasa Digital Academy: Demande de partenariat</option>
+                        <option value="kda_recrutement">Kinshasa Digital Academy: Demande de recrutement de nos apprenants</option>
+                        <option value="kda_programme">Kinshasa Digital Academy: Demande de renseignement concernant le programme</option>
+                        <option value="kda_projet_impact_social">Kinshasa Digital Academy: Soumettre un projet à impact social</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                    <textarea id="message" placeholder="Demande : merci d'indiquer le maximum de précision afin qu'on puisse vous donner une réponse complète" required="required" aria-required="true" aria-describedby="messageFeedback" class="form-control" style="resize: none; overflow-y: scroll; height: 134px;"
+                        wrap="soft"></textarea>
+                    <p>Dû à un nombre important de demandes, nous ne traiterons pas les messages concernant les inscriptions à KDA, inscrivez-vous à l’aide du <a href="https://forms.gle/TWhrLbszcZZRRry16" target="_blank">formulaire</a>.<br> Pour toute demande
+                        de devis, merci de nous donner le maximum de détails possible afin de nous aider à vous répondre le plus précisément possible</p>
+                    <button type="submit">envoyer</button>
+                </div>
+            </form>
+        </div>
+    </section>
     <footer></footer>
 </body>
 

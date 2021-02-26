@@ -199,10 +199,10 @@ section.home-stats {
     position: relative;
     display: flex;
     justify-content: space-between;
-    overflow-x: scroll;
     height: 200px;
     width: auto;
     padding: 0 15px;
+    overflow: hidden;
 }
 
 .stats::-webkit-scrollbar,
@@ -210,10 +210,6 @@ section.home-stats {
 .stats::-webkit-progress-bar {
     background: none;
     opacity: 0;
-}
-
-.stats::-webkit-scrollbar-thumb {
-    background: #d92950;
 }
 
 .stats .stat {
@@ -374,4 +370,167 @@ section.home-expertise {
 
 .home-expertise .expertises {
     height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.expertises section {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.expertises section h3 {
+    color: #fff;
+    background: #d92950;
+    font-size: 1.75rem;
+    margin-bottom: .5rem;
+    font-weight: 700;
+    padding: .75rem 1.25rem;
+    padding-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.expertises section:nth-of-type(2) h3 {
+    background: #331f40;
+}
+
+.expertises section.left {
+    width: 55%;
+    height: 100%;
+    background: #f1f0f3;
+}
+
+.expertises section.right {
+    width: 40%;
+    height: 100%;
+    background: #f1f0f3;
+}
+
+section .container {
+    display: flex;
+    flex-wrap: wrap;
+    background: #f1f0f3;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+section .list-container {
+    margin: 40px;
+    background: #dfdee1;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 1rem;
+}
+
+.list-container ol {
+    padding-left: 40px;
+    margin-bottom: 16px;
+}
+
+.list-container li {
+    font-size: 1.3rem;
+    font-family: Ubuntu Mono, monospace;
+}
+
+
+/*home-cta2*/
+
+section.home-cta2 {
+    padding: 100px 0;
+    background: #ae3753;
+}
+
+.home-cta2 .ctas2 {
+    margin-bottom: 3rem!important;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctas2 .cta2 {
+    position: relative;
+    height: auto;
+    margin: auto;
+    width: 25%;
+}
+
+.home-cta2 h1 {
+    color: white;
+    font-family: Mons, sans-serif;
+}
+
+.home-cta2 img {
+    height: auto;
+    width: 45px;
+}
+
+.home-cta2 .cta2 .img-container {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    padding: 12.5px;
+    border: 1px solid white;
+    margin: auto;
+    margin-bottom: 1rem!important;
+    border-radius: 5px;
+}
+
+.img-container::after {
+    position: absolute;
+    right: -10px;
+    top: 25px;
+    content: "";
+    width: 100px;
+    height: 50px;
+    background: url(../image/illustrations/arrow.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+
+.cta2.last .img-container::after {
+    content: "";
+    background: none;
+    display: none;
+}
+
+.home-cta2 .cta2 h4 {
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Ubuntu Mono, monospace;
+    line-height: 30px;
+}
+
+.home-cta2 .btn-plein {
+    display: flex;
+    justify-content: center;
+}
+
+.home-cta2 a {
+    display: inline-block;
+    border: 2px solid #d92950;
+    border-width: 2px;
+    border-radius: 15px;
+    background: #d92950;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding: 15px 25px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.home-cta2 a:hover {
+    cursor: pointer;
+    background: none;
+    border: 2px solid white;
 }
