@@ -637,4 +637,22 @@ section.home-medias {
 .home-supporters .supporters-container {
     max-width: 1200px;
     margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-block {
+    width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container-block img {
+    height: 150px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container-block p {
+    padding: 10px 0;
 }
