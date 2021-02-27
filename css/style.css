@@ -198,7 +198,7 @@ form select {
 }
 
 .form-bas-all textarea {
-    color: hsla(0, 0%, 100%, .87);
+    color: rgba(66, 64, 64, 0.87);
     width: 100%;
     display: block;
     width: 100%;
@@ -210,6 +210,7 @@ form select {
     overflow-y: scroll;
     appearance: none;
     margin-bottom: 15px;
+    border: none;
 }
 
 textarea ::-webkit-scrollbar {
@@ -332,4 +333,52 @@ footer .footer-container-right {
     color: #fff;
     font-size: 1rem;
     line-height: 1.2;
+}
+
+footer ul.social-links {
+    margin: 2rem 0 0;
+    list-style: none;
+    padding: 0;
+}
+
+footer ul.social-links li {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+footer ul.social-links li a {
+    font-size: 2rem;
+    position: relative;
+}
+
+footer ul.social-links li a:hover::after {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    display: block;
+    background-color: #ff046b;
+    -webkit-transition: width .3s;
+    transition: width .3s;
+    width: .001%;
+    border-radius: 2px;
+    height: 2px;
+    left: 0;
+}
+
+.fab {
+    font-family: "font awesome 5 brands";
+}
+
+.fa,
+.fab,
+.fal,
+.far,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
 }

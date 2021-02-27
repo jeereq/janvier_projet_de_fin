@@ -534,3 +534,107 @@ section.home-cta2 {
     background: none;
     border: 2px solid white;
 }
+
+
+/*section services */
+
+
+/*septieme section */
+
+section.home-services {
+    padding: 100px 30px;
+    background: #f1f0f3;
+    color: #424345;
+}
+
+.home-services .services-container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.services-container .services-container-left,
+.services-container .services-container-right {
+    height: auto;
+    width: 50%;
+    padding: 0 15px;
+}
+
+.services-container-left h1 {
+    font-family: Monts, sans-serif;
+    text-align: left;
+    color: #424345;
+    font-weight: 700;
+    margin-bottom: 3.75rem;
+}
+
+.services-container-left h1 span {
+    color: #d92950;
+}
+
+.services-container-left p {
+    margin-bottom: 1rem;
+}
+
+.services-container-left img {
+    max-width: 100%;
+    margin: 1rem 0;
+}
+
+
+/*huitieme section */
+
+
+/*home-medias*/
+
+section.home-medias {
+    padding: 100px 0;
+    background: #111;
+}
+
+.home-medias h1 {
+    color: white;
+    font-family: monts, serif, sans-serif;
+    font-weight: 700;
+    margin-bottom: 3.125rem;
+}
+
+.medias-container {
+    max-width: 60%;
+    padding: 0 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medias-container a {
+    max-width: 20%;
+    height: auto;
+}
+
+.medias-container a img {
+    height: auto;
+    width: 100%;
+}
+
+
+/*neuvieme section*/
+
+
+/*home-suppoters*/
+
+.home-supporters {
+    padding: 100px 0;
+}
+
+.home-supporters h1 {
+    font-family: monts, serif, sans-serif;
+    font-weight: 900;
+    color: #424345;
+}
+
+.home-supporters .supporters-container {
+    max-width: 1200px;
+    margin: auto;
+}
