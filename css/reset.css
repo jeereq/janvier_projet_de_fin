@@ -71,7 +71,7 @@ header,
 }
 
 h1 {
-    font-family: monts, sans-serif;
+    font-family: montserrat, sans-serif;
 }
 
 
@@ -91,4 +91,10 @@ button:focus {
 .ctas2 {
     max-width: 1200px;
     margin: auto;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
 }

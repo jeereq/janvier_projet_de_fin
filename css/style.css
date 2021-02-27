@@ -237,3 +237,99 @@ footer {
     padding: 10rem 0 6rem;
     font-size: 1.4rem;
 }
+
+footer .footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-container-left,
+footer .footer-container-right {
+    position: relative;
+    height: auto;
+    width: 50%;
+    padding: 0 15px;
+}
+
+.footer-container-left address {
+    margin-bottom: 2rem;
+}
+
+.footer-container-right p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: hsla(0, 0%, 100%, .87);
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+.footer-container form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-container input {
+    width: 70%;
+    height: 58px;
+    display: inline-block;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+}
+
+.footer-container button {
+    width: 25%;
+    border: none;
+    border-width: 2px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background: #d92950;
+    color: #fff;
+    padding: 15px 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer-container-left-lien a {
+    color: #d92950;
+    position: relative;
+    text-decoration: none;
+}
+
+.footer-container-left-lien a:hover {
+    color: #ff046b;
+}
+
+.footer-container-left-lien a:hover::after,
+.footer-container-right a:hover::after {
+    position: absolute;
+    bottom: -2px;
+    content: "";
+    display: block;
+    background-color: #ff046b;
+    -webkit-transition: width .3s;
+    transition: width .3s;
+    width: 100%;
+    border-radius: 2px;
+    height: 2px;
+    left: 0;
+    animation: width .3s;
+}
+
+.footer-container-right a {
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.2;
+}
