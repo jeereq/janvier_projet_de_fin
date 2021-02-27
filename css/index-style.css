@@ -616,6 +616,43 @@ section.home-services {
     margin: 1rem 0;
 }
 
+.services-container-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services-container-right .card {
+    padding: 20px;
+    margin-bottom: 25px;
+    border: none;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 45%;
+    background-color: white;
+}
+
+.card img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: .5rem!important;
+}
+
+.card h3 {
+    color: #424345;
+    margin-bottom: .5rem;
+    font-weight: 400;
+    font-family: montserrat, serif, sans-serif;
+    line-height: 1.2;
+}
+
+.card p {
+    color: #424345;
+    margin-bottom: 1rem;
+}
+
 
 /*huitieme section */
 
