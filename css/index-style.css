@@ -324,13 +324,44 @@ section.home-projets {
     position: relative;
     display: flex;
     width: auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .projets .projet {
+    height: auto;
+    width: 30%;
+}
+
+.projets .image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projet .image .image-techno {
+    font-family: Ubuntu Mono, monospace;
+    font-size: .7rem;
+    background: rgb(237, 0, 88);
+    color: white;
+    width: 100%;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.projet .image .image-left {
+    width: 70%;
+    height: auto;
+    background: chartreuse;
+}
+
+.projet .image img {
     height: 450px;
-    width: 33%;
-    background: green;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.projets button {
+    background: none;
 }
 
 .projets button img {
@@ -339,8 +370,8 @@ section.home-projets {
 }
 
 .projets button.left {
-    height: 20px;
-    width: 20px;
+    height: auto;
+    width: 25px;
     border-radius: 50%;
     border: none;
     position: absolute;
@@ -349,9 +380,13 @@ section.home-projets {
     transform: translate(-10px, -10px);
 }
 
+.projets button.left img {
+    transform: rotate(180deg);
+}
+
 .projets button.right {
-    height: 20px;
-    width: 20px;
+    height: auto;
+    width: 25px;
     border-radius: 50%;
     border: none;
     position: absolute;
