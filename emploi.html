@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/animation-style.css">
     <link rel="shortcut icon" sizes="180x180" href="icon/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" async="">
 
 </head>
 
@@ -23,7 +23,7 @@
         <img src="logo/logo_white.png" alt="Logo de Kinshasa Digital">
         <nav class="nav-bar">
             <ul class="navbar-nav">
-                <li class="nav-item "><a href="index.html" target="" class="nav-link">Accueil</a></li>
+                <li class="nav-item "><a href="index.html" class="nav-link">Accueil</a></li>
                 <li class="nav-item"><a href="https://www.kinshasadigital.academy" target="_blank">Academy</a></li>
                 <li class="nav-item active"><a href="emploi.html">Emploi</a></li>
                 <li class="nav-item"><a href="#contact">Contact</a></li>
@@ -101,12 +101,21 @@
                 </strong>
             </p>
 
-            <form action="">
+            <form action="index.html">
                 <div class="form-left">
                     <label for="title">
                         quel titre vous decrirez le mieux ?
                     </label>
-                    <select id="title" required="required" aria-required="true" placeholder="Quel titre vous décrit le mieux ?" aria-describedby="websiteFeedback" class="custom-select"><option value="consultant">Consultant</option><option value="entrepreneur">Entrepreneur</option><option value="etudiant">Etudiant</option><option value="start-up">Représentant d'une Start-up</option><option value="pme">Représentant d'une PME</option><option value="grande_entreprise">Représentant d'une Grande entreprise</option><option value="ong">Représentant d'une ONG</option><option value="autre">Autre</option></select>
+                    <select id="title">
+                        <option value="consultant">Consultant</option>
+                        <option value="entrepreneur">Entrepreneur</option>
+                        <option value="etudiant">Etudiant</option>
+                        <option value="start-up">Représentant d'une Start-up</option>
+                        <option value="pme">Représentant d'une PME</option>
+                        <option value="grande_entreprise">Représentant d'une Grande entreprise</option>
+                        <option value="ong">Représentant d'une ONG</option>
+                        <option value="autre">Autre</option>
+                    </select>
                     <input type="text" placeholder="prenom">
                     <input type="text" placeholder="nom">
                     <input type="tel" placeholder="numero">
@@ -152,8 +161,7 @@
                         <option value="kda_projet_impact_social">Kinshasa Digital Academy: Soumettre un projet à impact social</option>
                         <option value="autre">Autre</option>
                     </select>
-                    <textarea id="message" placeholder="Demande : merci d'indiquer le maximum de précision afin qu'on puisse vous donner une réponse complète" required="required" aria-required="true" aria-describedby="messageFeedback" class="form-control" style="resize: none; overflow-y: scroll; height: 134px;"
-                        wrap="soft"></textarea>
+                    <textarea id="message" placeholder="Demande : merci d'indiquer le maximum de précision afin qu'on puisse vous donner une réponse complète" class="form-control" style="resize: none; overflow-y: scroll; height: 134px;" wrap="soft"></textarea>
                     <p>Dû à un nombre important de demandes, nous ne traiterons pas les messages concernant les inscriptions à KDA, inscrivez-vous à l’aide du <a href="https://forms.gle/TWhrLbszcZZRRry16" target="_blank">formulaire</a>.<br> Pour toute demande
                         de devis, merci de nous donner le maximum de détails possible afin de nous aider à vous répondre le plus précisément possible</p>
                     <button type="submit">envoyer</button>

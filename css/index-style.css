@@ -104,6 +104,7 @@ section.home-service {
 }
 
 .left .item-boss {
+    display: flow-root;
     position: absolute;
     top: 0px;
     left: -100px;
@@ -283,7 +284,8 @@ section.home-cta .ctas {
     text-decoration: none;
 }
 
-.cta a button {
+.cta a {
+    display: inline-block;
     border-width: 2px;
     border-radius: 15px;
     border: 2px solid #d92950;
@@ -297,7 +299,7 @@ section.home-cta .ctas {
     text-transform: uppercase;
 }
 
-.ctas .cta a button:hover {
+.ctas .cta a:hover {
     cursor: pointer;
     color: #d92950;
     background: none;
