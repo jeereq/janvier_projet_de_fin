@@ -719,6 +719,7 @@ section.home-medias {
     width: 25%;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 30px;
 }
 
 .container-block img {
@@ -729,4 +730,5 @@ section.home-medias {
 
 .container-block p {
     padding: 10px 0;
+    min-height: 100px;
 }
