@@ -356,7 +356,7 @@ footer ul.social-links li a:hover::after {
     position: absolute;
     bottom: 2px;
     content: "";
-    display: block;
+    display: inline-block;
     background-color: #ff046b;
     border-radius: 2px;
     height: 2px;
