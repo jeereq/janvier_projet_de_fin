@@ -350,9 +350,18 @@ section.home-projets {
 }
 
 .projet .image .image-left {
-    width: 70%;
+    width: 75%;
     height: auto;
-    background: chartreuse;
+}
+
+.image-left p {
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+}
+
+.image-left p a {
+    color: white;
 }
 
 .projet .image img {
@@ -360,6 +369,22 @@ section.home-projets {
     width: 100%;
     border-radius: 15px;
     margin-bottom: 15px;
+}
+
+.projet .image .image-right {
+    background: white;
+    color: #d92950;
+    font-size: 0.9rem;
+    width: 25%;
+    height: 24.5px;
+    line-height: 24.5px;
+    padding: 0px 0px 3px 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.image-right svg {
+    height: 100%!important;
 }
 
 .projets button {
@@ -416,6 +441,40 @@ section.home-expertise {
 .expertises section {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+}
+
+section .blocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: auto;
+    width: 100%;
+}
+
+.blocks .block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 25%;
+    padding: 0 15px;
+}
+
+.block img {
+    height: 45px;
+    width: 45px;
+}
+
+.block p {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: roboto, serif, sans-serif;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    color: #424345;
+    width: 100%;
+    margin-bottom: 1rem;
 }
 
 .expertises section h3 {

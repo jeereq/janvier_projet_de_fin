@@ -387,3 +387,7 @@ footer ul.social-links li a:hover::after {
     text-rendering: auto;
     line-height: 1;
 }
+
+form label {
+    display: none;
+}
