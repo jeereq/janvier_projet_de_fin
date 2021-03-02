@@ -93,3 +93,8 @@ textarea:focus,
 select:focus {
     outline: none;
 }
+
+iframe {
+    overflow: hidden;
+    appearance: none;
+}
