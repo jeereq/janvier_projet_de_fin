@@ -16,7 +16,7 @@ main h1 {
     display: flex;
     padding: 100px 15px;
     font-family: montserrat, serif, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .job .left,
@@ -88,7 +88,6 @@ main h1 {
     background: #d92950;
     color: #fff;
     padding: 15px 25px;
-    font-weight: 500;
     text-align: center;
     font-size: 1rem;
     line-height: 1.5;
