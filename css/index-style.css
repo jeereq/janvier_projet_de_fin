@@ -561,6 +561,7 @@ section.home-cta2 {
     height: auto;
     margin: auto;
     width: 25%;
+    margin-bottom: 3rem !important;
 }
 
 .home-cta2 h1 {
@@ -755,7 +756,7 @@ section.home-medias {
     padding: 0 15px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -801,7 +802,7 @@ section.home-medias {
 }
 
 .container-block img {
-    height: 150px;
+    height: auto;
     width: 100%;
     border-radius: 15px;
 }
