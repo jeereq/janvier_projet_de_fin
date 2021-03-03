@@ -39,18 +39,43 @@ li.nav-item a:hover {
     text-decoration: none;
 }
 
-li.nav-item.active a::after,
 li.nav-item a:hover::after {
     position: absolute;
     bottom: -2px;
     content: "";
     display: block;
     background-color: #ff046b;
-    -webkit-transition: width .3s;
     transition: width .3s;
     width: 100%;
     border-radius: 2px;
-    height: 2px;
+    height: 3px;
+    left: 0;
+}
+
+li.nav-item.active a::after,
+li.nav-item a::after {
+    position: absolute;
+    bottom: -2px;
+    content: "";
+    display: block;
+    background-color: #ff046b;
+    transition: width .3s;
+    width: 100%;
+    border-radius: 2px;
+    height: 3px;
+    left: 0;
+}
+
+li.nav-item a::after {
+    position: absolute;
+    bottom: -2px;
+    content: "";
+    display: none;
+    background-color: #ff046b;
+    transition: width .3s;
+    width: 100%;
+    border-radius: 2px;
+    height: 3px;
     left: 0;
 }
 
