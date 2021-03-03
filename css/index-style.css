@@ -5,6 +5,7 @@ section.header-container {
     min-height: 100vh;
     background-image: url("../image/hero-background.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 section h1.header {
@@ -652,6 +653,11 @@ section.home-services {
     color: #424345;
 }
 
+.home-services p {
+    font-family: montserrat;
+    font-weight: 400;
+}
+
 .home-services .services-container {
     display: flex;
     max-width: 1200px;
@@ -670,7 +676,8 @@ section.home-services {
     text-align: left;
     color: #424345;
     font-weight: 700;
-    margin-bottom: 3.75rem;
+    line-height: 1.2;
+    margin-bottom: 3rem;
 }
 
 .services-container-left h1 span {
