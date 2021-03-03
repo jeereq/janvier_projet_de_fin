@@ -415,3 +415,16 @@ footer ul.social-links li a:hover::after {
 form label {
     display: none;
 }
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #ffd0e3;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(255, 80, 152, .25);
+}
+
+footer input:focus {
+    border-color: none;
+    box-shadow: none;
+}
