@@ -472,8 +472,8 @@ section .blocks {
 
 .block p {
     text-align: center;
-    font-size: 1.3rem;
-    font-family: roboto, serif, sans-serif;
+    font-size: 1.15rem;
+    font-family: ubuntu mono, serif, sans-serif;
     font-variant: small-caps;
     text-transform: uppercase;
     color: #424345;
