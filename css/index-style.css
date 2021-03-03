@@ -194,8 +194,9 @@ section.home-stats {
 }
 
 .home-stats h1 {
-    font-family: monts, serif, sans-serif;
+    font-family: montserrat, serif, sans-serif;
     text-align: center;
+    font-weight: 700;
 }
 
 .home-stats .stats {
