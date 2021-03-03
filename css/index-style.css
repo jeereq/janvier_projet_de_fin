@@ -720,6 +720,7 @@ section.home-services {
 .card h3 {
     color: #424345;
     margin-bottom: .5rem;
+    font-size: 1.35rem;
     font-weight: 700;
     font-family: montserrat, serif, sans-serif;
     line-height: 1.2;
