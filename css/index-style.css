@@ -125,8 +125,8 @@ section.home-service {
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 60%;
-    width: 60%;
+    height: 67.5%;
+    width: 67.5%;
     transform: translate(25%, 25%);
 }
 
@@ -145,6 +145,7 @@ section.home-service {
 .right H1 {
     color: #424345;
     text-align: left;
+    line-height: 1.2;
 }
 
 .right .services {
@@ -176,6 +177,7 @@ section.home-service {
 .service h5 {
     font-size: 1.25rem;
     font-weight: 700;
+    font-family: montserrat, serif, sans-serif;
     margin-bottom: .5rem;
     line-height: 1.2;
     color: #424345;
@@ -203,7 +205,7 @@ section.home-stats {
 .home-stats .stats {
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 200px;
     width: auto;
     padding: 0 15px;
@@ -227,9 +229,8 @@ section.home-stats {
 
 .stats .stat img {
     display: inline-block;
+    width: auto;
     max-height: 80px;
-    height: auto;
-    width: 60%;
     margin: auto;
     line-height: 100%;
 }
@@ -247,7 +248,7 @@ section.home-cta {
 }
 
 section.home-cta h1 {
-    font-weight: 300;
+    font-weight: 700;
     font-family: montserrat;
     text-align: center;
 }
@@ -258,7 +259,7 @@ section.home-cta .ctas {
 }
 
 .home-cta .ctas .cta {
-    max-width: 45%;
+    max-width: 43%;
     padding: 40px;
     margin: 0 15px;
     margin-bottom: 3rem!important;
@@ -810,4 +811,6 @@ section.home-medias {
 .container-block p {
     padding: 10px 0;
     min-height: 100px;
+    font-family: Montserrat, sans-serif;
+    color: #424345;
 }

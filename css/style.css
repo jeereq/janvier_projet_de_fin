@@ -116,7 +116,7 @@ section#contact .form {
     text-align: center;
     margin-bottom: 3.15rem;
     line-height: 1.2;
-    font-family: monts, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
     font-weight: 700;
     color: hsla(0, 0%, 100%, .87);
@@ -125,7 +125,8 @@ section#contact .form {
 .form p {
     text-align: center!important;
     padding-bottom: 1rem;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: montserrat, serif, sans-serif;
     max-width: 1200px;
 }
 
@@ -146,6 +147,11 @@ section#contact .form {
     background: #d92950;
     animation: width .3s;
     transition: .3s;
+}
+
+footer address {
+    font-family: roboto, serif, sans-serif;
+    font-style: normal;
 }
 
 form {
@@ -181,7 +187,7 @@ form .form-bas-all input {
 form label {
     font-size: 1rem;
     font-weight: 400;
-    font-family: monts, serif, sans-serif;
+    font-family: montserrat, serif, sans-serif;
     line-height: 1.5;
     padding: .75rem 0;
 }
@@ -261,6 +267,7 @@ footer {
     color: hsla(0, 0%, 100%, .87);
     padding: 10rem 0 6rem;
     font-size: 1.4rem;
+    font-family: montserrat, serif, sans-serif;
 }
 
 footer .footer-container {
@@ -309,6 +316,13 @@ footer .footer-container-right {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #6c757d;
+    opacity: 1;
+    text-transform: capitalize;
 }
 
 .footer-container button {
@@ -422,9 +436,4 @@ textarea:focus {
     border-color: #ffd0e3;
     outline: 0;
     box-shadow: 0 0 0 .2rem rgba(255, 80, 152, .25);
-}
-
-footer input:focus {
-    border-color: none;
-    box-shadow: none;
 }
