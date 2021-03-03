@@ -253,11 +253,11 @@ section.home-cta h1 {
 
 section.home-cta .ctas {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .home-cta .ctas .cta {
-    max-width: 50%;
+    max-width: 45%;
     padding: 40px;
     margin: 0 15px;
     margin-bottom: 3rem!important;
@@ -335,7 +335,7 @@ section.home-projets {
 
 .projets .projet {
     height: auto;
-    width: 30%;
+    width: 25vw;
 }
 
 .projets .image {
