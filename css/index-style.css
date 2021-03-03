@@ -475,7 +475,6 @@ section .blocks {
     font-size: 1.15rem;
     font-family: ubuntu mono, serif, sans-serif;
     font-variant: small-caps;
-    text-transform: uppercase;
     color: #424345;
     width: 100%;
     margin-bottom: 1rem;
