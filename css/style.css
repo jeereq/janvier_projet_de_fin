@@ -437,3 +437,7 @@ textarea:focus {
     outline: 0;
     box-shadow: 0 0 0 .2rem rgba(255, 80, 152, .25);
 }
+
+footer strong {
+    color: #fff;
+}
